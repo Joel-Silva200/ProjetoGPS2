@@ -10,8 +10,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-//import Reserve from "../../components/modal/Reserve";
-// import DatePicker from "../../components/datepicker/DatePicker";
+import Reserve from "../../components/modal/Reserve";
+import DatePicker from "../../components/datepicker/DatePicker";
 
 const Hotel = (props) => {
 
@@ -83,13 +83,6 @@ const Hotel = (props) => {
             )}
             <div className="hotelWrapper">
               <h1 className="hotelTitle">{props.nome}</h1>
-              <div className="hotelAddress">
-                <FontAwesomeIcon icon={faLocationDot} />
-                <span>{props.endereco}</span>
-              </div>
-              <span className="hotelDistance">
-                Excelente localização - {props.distancia} do centro da cidade
-              </span>
               <div className="hotelImages">
                 {props.fotos?.map((foto, i) => (
                   <div className="hotelImgWrapper" key={i}>
@@ -108,13 +101,13 @@ const Hotel = (props) => {
                   <p className="hotelDesc">{props.desc}</p>
                 </div>
                 <div className="hotelDetailsPrice">
-                  {/* <DatePicker handleclick = {handleClick}></DatePicker> */}
+                  <DatePicker handleclick = {handleClick}></DatePicker>
                 </div>
               </div>
             </div>
           </div>
         </>
-      {/* {openModal && <Reserve setOpen={setOpenModal} hotelId={id} />} */}
+      {openModal && <Reserve setOpen={setOpenModal} hotelId={id} />}
       <Footer />
     </div>
   );

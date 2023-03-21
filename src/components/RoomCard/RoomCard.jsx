@@ -9,7 +9,7 @@ const SearchItem = () => {
   return (
     <>
       <div className="searchItem">
-        <img src={""} alt="" className="siImg" />
+        <img src={"https://pesweb.azureedge.net/spimg/hotelbannerimages/pestana-sao-paulo-hotel-banner-01.jpg?scale=downscaleonly&encoder=freeimage&progressive=true&quality=50&w=1440&h=780&mode=crop&anchor=bottomcenter"} alt="" className="siImg" />
         <div className="siDesc">
           <h1 className="siTitle">{"Quarto para 2"}</h1>
           <span></span>
@@ -36,7 +36,7 @@ const SearchItem = () => {
         </div>
       </div>
       <div className="searchItem">
-        <img src={""} alt="" className="siImg" />
+        <img src={"https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg"} alt="" className="siImg" />
         <div className="siDesc">
           <h1 className="siTitle">{"Quarto para 2"}</h1>
           <span></span>
@@ -63,7 +63,7 @@ const SearchItem = () => {
         </div>
       </div>
       <div className="searchItem">
-        <img src={""} alt="" className="siImg" />
+        <img src={"https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg"} alt="" className="siImg" />
         <div className="siDesc">
           <h1 className="siTitle">{"Quarto para 2"}</h1>
           <span></span>
