@@ -1,4 +1,4 @@
-import "./hotel.css";
+import "./quarto.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,24 +8,19 @@ import {
   faCircleXmark,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import useFetch from "../../hooks/axiosFetch";
-import { AuthContext } from "../../context/AuthContext";
-import Reserve from "../../components/modal/Reserve";
-import DatePicker from "../../components/datepicker/DatePicker";
+//import Reserve from "../../components/modal/Reserve";
+// import DatePicker from "../../components/datepicker/DatePicker";
 
-const Hotel = () => {
+const Hotel = (props) => {
 
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
   const [openModal, setOpenModal] = useState(false);
-  const { user } = useContext(AuthContext);
 
   const location = useLocation();
   const id = location.pathname.split("/")[2];
-
-  const { data, loading } = useFetch(`/hoteis/${id}`);
 
   const navigate = useNavigate();
 
@@ -52,17 +47,12 @@ const Hotel = () => {
 
   
   const handleClick = () => {
-    if (user) {
-      setOpenModal(true);
-    } else {
-      navigate("/login");
-    }
+    setOpenModal(true);
   };
 
   return (
     <div>
       <Navbar />
-      {loading ? (<div className="loading">A carregar....Por favor aguarde</div>) : (
         <>
           <div className="hotelContainer">
             {open && (
@@ -79,7 +69,7 @@ const Hotel = () => {
                 />
                 <div className="sliderWrapper">
                   <img
-                    src={data.fotos[slideNumber]}
+                    src={props.fotos[slideNumber]}
                     alt=""
                     className="sliderImg"
                   />
@@ -92,16 +82,16 @@ const Hotel = () => {
               </div>
             )}
             <div className="hotelWrapper">
-              <h1 className="hotelTitle">{data.nome}</h1>
+              <h1 className="hotelTitle">{props.nome}</h1>
               <div className="hotelAddress">
                 <FontAwesomeIcon icon={faLocationDot} />
-                <span>{data.endereco}</span>
+                <span>{props.endereco}</span>
               </div>
               <span className="hotelDistance">
-                Excelente localização - {data.distancia} do centro da cidade
+                Excelente localização - {props.distancia} do centro da cidade
               </span>
               <div className="hotelImages">
-                {data.fotos?.map((foto, i) => (
+                {props.fotos?.map((foto, i) => (
                   <div className="hotelImgWrapper" key={i}>
                     <img
                       onClick={() => handleOpen(i)}
@@ -114,18 +104,17 @@ const Hotel = () => {
               </div>
               <div className="hotelDetails">
                 <div className="hotelDetailsTexts">
-                  <h1 className="hotelTitle">{data.titulo}</h1>
-                  <p className="hotelDesc">{data.desc}</p>
+                  <h1 className="hotelTitle">{props.titulo}</h1>
+                  <p className="hotelDesc">{props.desc}</p>
                 </div>
                 <div className="hotelDetailsPrice">
-                  <DatePicker handleclick = {handleClick}></DatePicker>
+                  {/* <DatePicker handleclick = {handleClick}></DatePicker> */}
                 </div>
               </div>
             </div>
           </div>
         </>
-      )}
-      {openModal && <Reserve setOpen={setOpenModal} hotelId={id} />}
+      {/* {openModal && <Reserve setOpen={setOpenModal} hotelId={id} />} */}
       <Footer />
     </div>
   );

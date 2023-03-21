@@ -1,0 +1,11 @@
+.margens{
+    margin-top: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: auto;
+    align-content: center;
+}
+
+.formbutton {
+    margin-right: 35px;
+}
