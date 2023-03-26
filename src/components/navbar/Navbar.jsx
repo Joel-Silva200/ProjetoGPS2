@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="navItems">
         <button className="navButton" style={{borderRadius:"20px"}}>
           <NavLink
-            to="/dashboard"
+            to="/dashboard/users"
             style={{ textDecoration: "none", color: "inherit"}}
             >
             Dashboard

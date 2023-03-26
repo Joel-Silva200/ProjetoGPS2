@@ -30,38 +30,16 @@ const TableQuartos = () => {
                                     <tbody>
                                             <tr className="bg-gray-800">
                                                 <td className="p-3">
-                                                {"titulo"}
+                                                {"Quarto para 2"}
                                                 </td>
                                                 <td className="p-3">
-                                                {"descricao"}
+                                                {"--"}
                                                 </td>
                                                 <td className="p-3">
-                                                {"lotacao"}
+                                                {"2"}
                                                 </td>
                                                 <td className="p-3">
-                                                {49.99}€
-                                                </td>
-                                                <td className="p-3">
-                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
-                                                        <button className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/quartos/")}>edit</button>
-                                                    </a> */}
-                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_outline</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr className="bg-gray-800">
-                                                <td className="p-3">
-                                                {"titulo"}
-                                                </td>
-                                                <td className="p-3">
-                                                {"descricao"}
-                                                </td>
-                                                <td className="p-3">
-                                                {"lotacao"}
-                                                </td>
-                                                <td className="p-3">
-                                                {49.99}€
+                                                {59.99}€
                                                 </td>
                                                 <td className="p-3">
                                                     {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
@@ -74,16 +52,38 @@ const TableQuartos = () => {
                                             </tr>
                                             <tr className="bg-gray-800">
                                                 <td className="p-3">
-                                                {"titulo"}
+                                                {"Quarto para 3"}
                                                 </td>
                                                 <td className="p-3">
-                                                {"descricao"}
+                                                {"--"}
                                                 </td>
                                                 <td className="p-3">
-                                                {"lotacao"}
+                                                {"3"}
                                                 </td>
                                                 <td className="p-3">
-                                                {49.99}€
+                                                {69.99}€
+                                                </td>
+                                                <td className="p-3">
+                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/quartos/")}>edit</button>
+                                                    </a> */}
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_outline</button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr className="bg-gray-800">
+                                                <td className="p-3">
+                                                {"Quarto para 4"}
+                                                </td>
+                                                <td className="p-3">
+                                                {"--"}
+                                                </td>
+                                                <td className="p-3">
+                                                {"4"}
+                                                </td>
+                                                <td className="p-3">
+                                                {79.99}€
                                                 </td>
                                                 <td className="p-3">
                                                     {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
