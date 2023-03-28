@@ -2,8 +2,24 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 
-const TableUsers = () => {
 
+const TableUsers = (props) => {
+
+    const users = [
+        {
+            nome:"Joao",
+            email:"joaopedro@gmail.com",
+            morada:"Rua do Bolso Nelio",
+            contribuinte:218535342
+        },
+        {
+            nome:"Francisco",
+            email:"franciscopais@gmail.com",
+            morada:"Rua do Trinca Lose",
+            contribuinte:286428365
+        }
+        
+    ]
     const handleClick = async () => {
         console.log("apagar")
         };
