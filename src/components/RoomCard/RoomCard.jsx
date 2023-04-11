@@ -83,7 +83,7 @@ const SearchItem = () => {
         <div className="siDetails">
           <div className="siDetailTexts">
             <span className="siPrice">Desde {79.99}€</span>
-            <Link to={`/quartos/3`}>
+            <Link to={`/quartos/4`}>
               <button className="siCheckButton">Ver disponibilidade</button>
             </Link>
           </div>

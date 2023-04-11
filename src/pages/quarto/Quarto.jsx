@@ -103,7 +103,7 @@ const Hotel = (props) => {
             </div>
           </div>
         </>
-      {openModal && <Reserve setOpen={setOpenModal} hotelId={id} />}
+      {openModal && <Reserve setOpen={setOpenModal} quartoId={id} />}
       <Footer />
     </div>
   );

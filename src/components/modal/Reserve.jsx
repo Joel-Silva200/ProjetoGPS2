@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./reserve.css";
 
-const Reserve = ({ setOpen, hotelId }) => {
+const Reserve = ({ setOpen, quartoId }) => {
   const [selectedRooms, setSelectedRooms] = useState([]);
 
   const handleSelect = (e) => {
@@ -30,21 +30,28 @@ const Reserve = ({ setOpen, hotelId }) => {
           className="rClose"
           onClick={() => setOpen(false)}
         />
-        <span>Selecione os seus quartos:</span>
+        <span></span>
 
           <div className="rItem" key={1}>
             <div className="rItemInfo">
-              <div className="rTitle">{"Quarto 201"}</div>
-              <div className="rDesc">{"Quarto para 2"}</div>
+              <div className="rTitle">Quarto {quartoId}01</div>
+              <div className="rDesc">Quarto para {quartoId}</div>
               <div className="rMax">
-                Nº máximo de pessoas: <b>{2}</b>
+                Serviços adicionais (ao dia): <b>{5.99}€</b>
               </div>
-              <div className="rPrice">{49.99}€</div>
             </div>
             <div className="rSelectRooms">
 
                 <div className="room">
-                  <label>{201}</label>
+                  <label>{"Spa"}</label>
+                  <input
+                    type="checkbox"
+                    value={1}
+                    onChange={handleSelect}
+                  />
+                </div>
+                <div className="room">
+                  <label>{"Ginásio"}</label>
                   <input
                     type="checkbox"
                     value={1}

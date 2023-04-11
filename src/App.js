@@ -19,20 +19,20 @@ import { useState } from "react";
 function App() {
 
   const [dados1] = useState({
-    nome: "Quarto para 2",
+    nome: "Quarto para 1",
     endereco: "esse1",
     distancia: 4.9,
     fotos: ["https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg","https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg"],
-    titulo: "Quarto para 2",
+    titulo: "Quarto para 1",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Porttitor eget dolor morbi non arcu. Massa massa ultricies mi quis hendrerit dolor magna. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Vestibulum lorem sed risus ultricies tristique nulla aliquet. Elit ut aliquam purus sit amet luctus venenatis. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Ac odio tempor orci dapibus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Cras ornare arcu dui vivamus arcu felis. At in tellus integer feugiat scelerisque varius morbi enim. Odio eu feugiat pretium nibh. Arcu non sodales neque sodales ut etiam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Dignissim suspendisse in est ante in. Etiam erat velit scelerisque in dictum.",
   })
 
   const [dados2] = useState({
-    nome: "Quarto para 3",
+    nome: "Quarto para 2",
     endereco: "esse2",
     distancia: 2.9,
     fotos: ["https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg","https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg","https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg"],
-    titulo: "Quarto para 3",
+    titulo: "Quarto para 2",
     desc: "Orci a scelerisque purus semper. Aliquam malesuada bibendum arcu vitae elementum curabitur. Turpis egestas pretium aenean pharetra magna. Mi bibendum neque egestas congue quisque egestas. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Et sollicitudin ac orci phasellus egestas tellus. Dictum sit amet justo donec enim diam vulputate. In vitae turpis massa sed elementum tempus. Ipsum consequat nisl vel pretium lectus quam id leo in. Eu ultrices vitae auctor eu augue ut lectus. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Luctus accumsan tortor posuere ac ut consequat.",
   })
 
@@ -90,7 +90,7 @@ function App() {
                 }
               />
             </Route>
-            <Route path="3">
+            <Route path="4">
               <Route
                 index
                 element={

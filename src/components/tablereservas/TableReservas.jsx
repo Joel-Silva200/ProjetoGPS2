@@ -30,7 +30,7 @@ const TableHotels = () => {
                                                 {"António Silva"}
                                             </td>
                                             <td className="p-3">
-                                                {"202"}
+                                                {"102"}
                                             </td>
                                             <td className="p-3">
                                                 {"Spa"}
@@ -49,7 +49,7 @@ const TableHotels = () => {
                                                 {"Pedro Silva"}
                                             </td>
                                             <td className="p-3">
-                                                {"304"}
+                                                {"404"}
                                             </td>
                                             <td className="p-3">
                                                 {"-"}

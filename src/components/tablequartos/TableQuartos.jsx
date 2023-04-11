@@ -22,12 +22,34 @@ const TableQuartos = () => {
                                 <tr>
 						            <th className="p-3 text-left">Título</th>
                                     <th className="p-3 text-left">Descrição</th>
-						            <th className="p-3 text-left">LotacaoMax</th>
+						            <th className="p-3 text-left">Lotacão Máxima</th>
 						            <th className="p-3 text-left">Preço</th>
                                     <th className="p-3 text-left">Ações</th>
 					            </tr>
                             </thead>
                                     <tbody>
+                                            <tr className="bg-gray-800">
+                                                <td className="p-3">
+                                                {"Quarto para 1"}
+                                                </td>
+                                                <td className="p-3">
+                                                {"--"}
+                                                </td>
+                                                <td className="p-3">
+                                                {"1"}
+                                                </td>
+                                                <td className="p-3">
+                                                {59.99}€
+                                                </td>
+                                                <td className="p-3">
+                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/quartos/")}>edit</button>
+                                                    </a> */}
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
+                                                    </a>
+                                                </td>
+                                            </tr>
                                             <tr className="bg-gray-800">
                                                 <td className="p-3">
                                                 {"Quarto para 2"}
@@ -39,28 +61,6 @@ const TableQuartos = () => {
                                                 {"2"}
                                                 </td>
                                                 <td className="p-3">
-                                                {59.99}€
-                                                </td>
-                                                <td className="p-3">
-                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
-                                                        <button className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/quartos/")}>edit</button>
-                                                    </a> */}
-                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_outline</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr className="bg-gray-800">
-                                                <td className="p-3">
-                                                {"Quarto para 3"}
-                                                </td>
-                                                <td className="p-3">
-                                                {"--"}
-                                                </td>
-                                                <td className="p-3">
-                                                {"3"}
-                                                </td>
-                                                <td className="p-3">
                                                 {69.99}€
                                                 </td>
                                                 <td className="p-3">
@@ -68,7 +68,7 @@ const TableQuartos = () => {
                                                         <button className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/quartos/")}>edit</button>
                                                     </a> */}
                                                     <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_outline</button>
+                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
                                                     </a>
                                                 </td>
                                             </tr>
@@ -90,7 +90,7 @@ const TableQuartos = () => {
                                                         <button className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/quartos/")}>edit</button>
                                                     </a> */}
                                                     <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_outline</button>
+                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
                                                     </a>
                                                 </td>
                                             </tr>
