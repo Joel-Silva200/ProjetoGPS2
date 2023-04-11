@@ -13,9 +13,8 @@ import SideLeftbar from "./components/sidebar/Sidebar";
 import FormHotels from "./components/formhotel/FormHotels";
 import FormQuartos from "./components/formquarto/FormQuartos";
 import Checkout from "./components/checkout/Checkout";
-import Fatura from "./pages/fatura/Fatura"
 import Quarto from "./pages/quarto/Quarto";
-import Servico from "./components/extraservices/extraservices";
+import Tableservice from "./components/extraservice/extraservice";
 import Erro from "./pages/erro/Erro";
 import { useState } from "react";
 
@@ -108,7 +107,6 @@ function App() {
           </Route>  
         </Route>
         <Route path="/login" element={<Login />} />
-        <Route path="/faturacao" element={<Fatura />} />
         <Route path="/checkout" element={<>
           <Navbar/>
           <Checkout />
@@ -122,7 +120,7 @@ function App() {
                 element={
                   <>
                   
-                    <Dashboard/>
+                  <Dashboard/>
                   
                   </>
                 }
@@ -135,6 +133,19 @@ function App() {
                   
                     <SideLeftbar/>
                     <TableUsers/>
+                  
+                  </>
+                }
+              />
+            </Route>
+            <Route path="servicos">
+              <Route
+                index
+                element={
+                  <>
+                  
+                  <SideLeftbar/>
+                    <Tableservice/>
                   
                   </>
                 }
@@ -185,20 +196,7 @@ function App() {
                   </>
                 }
               />
-              <Route path="servicos">
-              <Route
-                index
-                element={
-                  <>
-                  
-                    <SideLeftbar/>
-                    <Servico/>
-                  
-                  </>
-                }
-              />
               
-            </Route>
           </Route>
         </Route>
       </Route>

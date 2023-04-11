@@ -34,6 +34,14 @@ const SideLeftbar = () => {
                         </span>
                     </Link>
                 </li>
+                <li className="has-subnav">
+                    <Link to={"/dashboard/servicos"}>
+                       <i className="fa fa-camera-retro fa-2x"></i>
+                        <span className="nav-text">
+                            Servicos
+                        </span>
+                    </Link>
+                </li>
             </ul>
 
             <ul className="logout">
