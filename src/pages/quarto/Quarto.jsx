@@ -6,10 +6,9 @@ import {
   faCircleArrowLeft,
   faCircleArrowRight,
   faCircleXmark,
-  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Reserve from "../../components/modal/Reserve";
 import DatePicker from "../../components/datepicker/DatePicker";
 
@@ -21,9 +20,6 @@ const Hotel = (props) => {
 
   const location = useLocation();
   const id = location.pathname.split("/")[2];
-
-  const navigate = useNavigate();
-
 
   //
   // função para image slider

@@ -1,23 +1,9 @@
-import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "./Signup.css";
 
 const Signup = () => {
-  const [credentials, setCredentials] = useState({
-    nome: undefined,
-    password: undefined,
-    email: undefined,
-    morada: undefined,
-    username: undefined,
-    contribuinte: undefined,
-  });
 
   const navigate = useNavigate();
-
-  //   Handle Change Function
-  const handleChange = (e) => {
-    setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
-  };
 
   //   Handle Click Function
   const handleClick = async (e) => {
@@ -45,7 +31,7 @@ const Signup = () => {
               type="text"
               placeholder="Nome"
               id="nome"
-              onChange={handleChange}
+
             />
 
             <input
@@ -60,7 +46,7 @@ const Signup = () => {
               type="password"
               placeholder="Password"
               id="password"
-              onChange={handleChange}
+
             />
 
             <input
@@ -75,7 +61,7 @@ const Signup = () => {
               type="email"
               placeholder="Email"
               id="email"
-              onChange={handleChange}
+
             />
 
             <input
@@ -90,7 +76,7 @@ const Signup = () => {
               type="text"
               placeholder="Morada"
               id="morada"
-              onChange={handleChange}
+
             />
 
             <input
@@ -105,7 +91,7 @@ const Signup = () => {
               type="text"
               placeholder="Username"
               id="username"
-              onChange={handleChange}
+
             />  
 
             <input
@@ -120,7 +106,7 @@ const Signup = () => {
               type="text"
               placeholder="Contribuinte"
               id="contribuinte"
-              onChange={handleChange}
+
             />
 
             <button onClick={handleClick}>

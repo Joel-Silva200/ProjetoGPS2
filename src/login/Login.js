@@ -1,19 +1,9 @@
-import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "./Login.css";
 
 const Login = () => {
-  const [credentials, setCredentials] = useState({
-    user: undefined,
-    password: undefined,
-  });
 
   const navigate = useNavigate();
-
-  //   Handle Change Function
-  const handleChange = (e) => {
-    setCredentials((prev) => ({ ...prev, [e.target.id]: e.target.value }));
-  };
 
   //   Handle Click Function
   const handleClick = async (e) => {
@@ -39,7 +29,6 @@ const Login = () => {
               type="text"
               placeholder="User"
               id="user"
-              onChange={handleChange}
             />
             <input
               style={{
@@ -53,7 +42,6 @@ const Login = () => {
               type="password"
               placeholder="Password"
               id="password"
-              onChange={handleChange}
             />
             <button onClick={handleClick}>
               Login

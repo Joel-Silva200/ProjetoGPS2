@@ -17,15 +17,15 @@ const SideLeftbar = () => {
                         </span>
                     </Link>
                 </li>
-                {/* <li className="has-subnav">
-                    <Link to={"/dashboard/hoteis"}>
+                <li className="has-subnav">
+                    <Link to={"/dashboard/Reservas"}>
                        <i className="fa fa-comments fa-2x"></i>
                         <span className="nav-text">
-                            Serviços Extra
+                            Reservas
                         </span>
                     </Link>
                     
-                </li> */}
+                </li>
                 <li className="has-subnav">
                     <Link to={"/dashboard/quartos"}>
                        <i className="fa fa-camera-retro fa-2x"></i>

@@ -7,7 +7,7 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import TableUsers from "./components/tableusers/TableUsers";
-import TableHotels from "./components/tablehotels/TableHotels";
+import TableReservas from "./components/tablereservas/TableReservas";
 import TableQuartos from "./components/tablequartos/TableQuartos";
 import SideLeftbar from "./components/sidebar/Sidebar";
 import FormHotels from "./components/formhotel/FormHotels";
@@ -102,7 +102,7 @@ function App() {
                 }
               />
             </Route>
-          </Route>
+          </Route>  
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Signup />} />
@@ -131,14 +131,14 @@ function App() {
                 }
               />
             </Route>
-            <Route path="hoteis">
+            <Route path="reservas">
               <Route
                 index
                 element={
                   <>
                   
                     <SideLeftbar/>
-                  <TableHotels/>
+                  <TableReservas/>
                   
                   </>
                 }
