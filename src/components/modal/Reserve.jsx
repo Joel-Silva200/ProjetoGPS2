@@ -20,7 +20,7 @@ const Reserve = ({ setOpen, quartoId }) => {
   const navigate = useNavigate();
 
   const handleClick = async () => {
-
+    navigate("/checkout")
   };
   return (
     <div className="reserve">

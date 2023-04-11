@@ -11,7 +11,7 @@ const SearchItem = () => {
       <div className="searchItem">
         <img src={"https://pesweb.azureedge.net/spimg/hotelbannerimages/pestana-sao-paulo-hotel-banner-01.jpg?scale=downscaleonly&encoder=freeimage&progressive=true&quality=50&w=1440&h=780&mode=crop&anchor=bottomcenter"} alt="" className="siImg" />
         <div className="siDesc">
-          <h1 className="siTitle">{"Quarto para 2"}</h1>
+          <h1 className="siTitle">{"Quarto para 1"}</h1>
           <span></span>
           <span>
           </span>
@@ -38,7 +38,7 @@ const SearchItem = () => {
       <div className="searchItem">
         <img src={"https://www.hoteldochiado.pt/media/hotel-do-chiado-imageLinkroom-719-61.jpg"} alt="" className="siImg" />
         <div className="siDesc">
-          <h1 className="siTitle">{"Quarto para 3"}</h1>
+          <h1 className="siTitle">{"Quarto para 2"}</h1>
           <span></span>
           <span>
           </span>

@@ -12,6 +12,8 @@ import TableQuartos from "./components/tablequartos/TableQuartos";
 import SideLeftbar from "./components/sidebar/Sidebar";
 import FormHotels from "./components/formhotel/FormHotels";
 import FormQuartos from "./components/formquarto/FormQuartos";
+import Checkout from "./components/checkout/Checkout";
+import Fatura from "./pages/fatura/Fatura"
 import Quarto from "./pages/quarto/Quarto";
 import Erro from "./pages/erro/Erro";
 import { useState } from "react";
@@ -105,6 +107,12 @@ function App() {
           </Route>  
         </Route>
         <Route path="/login" element={<Login />} />
+        <Route path="/faturacao" element={<Fatura />} />
+        <Route path="/checkout" element={<>
+          <Navbar/>
+          <Checkout />
+          <Footer />
+        </>} />
         <Route path="/register" element={<Signup />} />
         <Route path="/dashboard/">
             <Route path="">
