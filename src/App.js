@@ -15,6 +15,7 @@ import FormQuartos from "./components/formquarto/FormQuartos";
 import Checkout from "./components/checkout/Checkout";
 import Fatura from "./pages/fatura/Fatura"
 import Quarto from "./pages/quarto/Quarto";
+import Servico from "./components/extraservices/extraservices";
 import Erro from "./pages/erro/Erro";
 import { useState } from "react";
 
@@ -174,7 +175,7 @@ function App() {
                   </>
                 }
               />
-              <Route
+               <Route
                 path="new"
                 element={
                   <>
@@ -184,9 +185,23 @@ function App() {
                   </>
                 }
               />
+              <Route path="servicos">
+              <Route
+                index
+                element={
+                  <>
+                  
+                    <SideLeftbar/>
+                    <Servico/>
+                  
+                  </>
+                }
+              />
+              
             </Route>
           </Route>
         </Route>
+      </Route>
       </Routes>
     </BrowserRouter>
   );
