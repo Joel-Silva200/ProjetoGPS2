@@ -8,11 +8,12 @@ import Grid from '@mui/material/Grid';
 const products = [
   {
     name: 'Quarto para 1',
+    desc: '1x noite(s)',
     price: '49.99€',
   },
   {
-    name: 'Serviço Spa',
-    desc: 'Serviços Extra',
+    name: 'Serviço Extra Spa',
+    desc: '1x noite(s)',
     price: '5.99€',
   },
 ];
