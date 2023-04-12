@@ -32,7 +32,7 @@ const FormService = () => {
         };
 
     const cancelar = () => {
-        navigate("/dashboard/quartos")
+        navigate("/dashboard/servicos")
     }
 
     return (
@@ -112,7 +112,7 @@ const FormService = () => {
                         <p></p>
                         <div className="form-control">
                             <label></label>
-                            <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none margin-right-5px formbutton" onClick={setClick}>Adicionar Quarto</button>
+                            <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none margin-right-5px formbutton" onClick={setClick}>Adicionar Serviço</button>
 
                             <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none formbutton" onClick={cancelar}>Cancelar</button>
                         <b>Campos com * são de preenchimento obrigatório!</b>
