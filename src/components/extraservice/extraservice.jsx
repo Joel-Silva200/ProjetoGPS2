@@ -3,12 +3,14 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./extraservice.css"
+import { useNavigate } from "react-router-dom";
 const Tableservice = () => {
-
+    const navigate = useNavigate();
     return(
         <>
             <div className="flex items-center justify-center min-h-screen bg-gray-900">
                 <div className="col-span-12">
+                <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none" onClick={() => navigate("/dashboard/servicos/new")}>Novo Servico</button>
                     <div className="overflow-auto lg:overflow-visible ">
                         <div className="table">
                         <table className="table text-gray-400 border-separate space-y-6 text-sm">
