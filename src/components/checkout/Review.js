@@ -9,7 +9,7 @@ const products = [
   {
     name: 'Quarto para 1',
     desc: '1x noite(s)',
-    price: '49.99€',
+    price: '59.99€',
   },
   {
     name: 'Serviço Extra Spa',
@@ -43,7 +43,7 @@ export default function Review() {
         <ListItem sx={{ py: 1, px: 0 }}>
           <ListItemText primary="Total" />
           <Typography variant="subtitle1" sx={{ fontWeight: 700 }}>
-            55.98€
+            65.98€
           </Typography>
         </ListItem>
       </List>
