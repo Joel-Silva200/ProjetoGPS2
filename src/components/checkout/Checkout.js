@@ -79,7 +79,7 @@ export default function Checkout() {
                 Obrigado pelo seu pedido.
               </Typography>
               <Typography variant="subtitle1">
-              O número do seu pedido é #2001539. enviámos um email de confirmação e vamos atualizando o estado da entrega através deste.
+              O número do seu pedido é #2001539. enviámos um email de confirmação e vamos atualizando o estado da reserva.
 
               </Typography>
               <Button onClick={() => navigate("/")} sx={{ mt: 3, ml: 1 }}>
