@@ -11,6 +11,7 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import Reserve from "../../components/modal/Reserve";
 import DatePicker from "../../components/datepicker/DatePicker";
+import PeopleAmount from "../../components/peopleAmount/peopleAmount"
 
 const Hotel = (props) => {
 
@@ -97,6 +98,7 @@ const Hotel = (props) => {
                   <p className="hotelDesc">{props.desc}</p>
                 </div>
                 <div className="hotelDetailsPrice">
+                  <PeopleAmount></PeopleAmount>
                   <DatePicker handleclick = {handleClick}></DatePicker>
                 </div>
               </div>

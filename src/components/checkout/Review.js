@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 const products = [
   {
     name: 'Quarto para 1',
-    desc: '1x noite(s)',
+    desc: '1x noite(s) | 1x Adultos',
     price: '59.99€',
   },
   {
@@ -18,12 +18,12 @@ const products = [
   },
 ];
 
-const addresses = ['1 MUI Drive', 'Reactville', 'Anytown', '99999', 'USA'];
+const addresses = ['Rua da Trindade 35', 'Amorim', 'Lisboa', '3440-213', 'Portugal'];
 const payments = [
   { name: 'Tipo de cartão', detail: 'Visa' },
-  { name: 'Dono do cartão', detail: 'Mr John Smith' },
+  { name: 'Dono do cartão', detail: 'António Silva' },
   { name: 'Nº do cartão', detail: 'xxxx-xxxx-xxxx-1234' },
-  { name: 'Data de validade', detail: '04/2024' },
+  { name: 'Data de validade', detail: '04/2027' },
 ];
 
 export default function Review() {
@@ -52,7 +52,7 @@ export default function Review() {
           <Typography variant="h6" gutterBottom sx={{ mt: 2 }}>
             Endereço
           </Typography>
-          <Typography gutterBottom>John Smith</Typography>
+          <Typography gutterBottom>António Silva</Typography>
           <Typography gutterBottom>{addresses.join(', ')}</Typography>
         </Grid>
         <Grid item container direction="column" xs={12} sm={6}>

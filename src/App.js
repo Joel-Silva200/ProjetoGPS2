@@ -28,7 +28,6 @@ function App() {
     titulo: "Quarto para 1",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Porttitor eget dolor morbi non arcu. Massa massa ultricies mi quis hendrerit dolor magna. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Vestibulum lorem sed risus ultricies tristique nulla aliquet. Elit ut aliquam purus sit amet luctus venenatis. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Ac odio tempor orci dapibus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Cras ornare arcu dui vivamus arcu felis. At in tellus integer feugiat scelerisque varius morbi enim. Odio eu feugiat pretium nibh. Arcu non sodales neque sodales ut etiam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Dignissim suspendisse in est ante in. Etiam erat velit scelerisque in dictum.",
   })
-  
 
   const [dados2] = useState({
     nome: "Quarto para 2",

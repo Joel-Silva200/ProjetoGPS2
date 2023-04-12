@@ -65,6 +65,9 @@ const Reserve = ({ setOpen, quartoId }) => {
         <button onClick={handleClick} className="rButton">
           Reserve Agora!
         </button>
+        <button className="rButton">
+          Telefone : 915032012
+        </button>
       </div>
     </div>
   );
