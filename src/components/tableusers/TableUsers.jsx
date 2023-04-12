@@ -27,7 +27,7 @@ const TableUsers = (props) => {
                                     <tbody>
                                             <tr className="bg-gray-800" key={1}>
                                                 <td className="p-3">
-                                                    {"Antnio Silva"}
+                                                    {"António Silva"}
                                                 </td>
                                                 <td className="p-3">
                                                     {"antsilva@gmail.com"}
@@ -39,11 +39,11 @@ const TableUsers = (props) => {
                                                     {"279453455"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
-                                                        <i className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/" + data._id)}>edite</i>
-                                                    </a> */}
+                                                <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
                                                     <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
+                                                        <button className="material-icons-round text-base">delete_inline</button>
                                                     </a>
                                                 </td>
                                             </tr>
@@ -55,17 +55,17 @@ const TableUsers = (props) => {
                                                     {"almrod@gmail.com"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"Rua do Tal Bandido Delas n52"}
+                                                    {"Rua Direita n52"}
                                                 </td>
                                                 <td className="p-3">
                                                     {"279547025"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
-                                                        <i className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/" + data._id)}>edite</i>
-                                                    </a> */}
+                                                <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
                                                     <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
+                                                        <button className="material-icons-round text-base">delete_inline</button>
                                                     </a>
                                                 </td>
                                             </tr>
@@ -83,11 +83,11 @@ const TableUsers = (props) => {
                                                     {"609256345"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
-                                                        <i className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/" + data._id)}>edite</i>
-                                                    </a> */}
+                                                <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
                                                     <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
+                                                        <button className="material-icons-round text-base">delete_inline</button>
                                                     </a>
                                                 </td>
                                             </tr>

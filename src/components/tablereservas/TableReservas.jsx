@@ -36,9 +36,12 @@ const TableHotels = () => {
                                                 {"Spa"}
                                             </td>
                                             <td className="p-3">
-                                                <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                    <button className="material-icons-round text-base">delete_inline</button>
-                                                </a>
+                                                    <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base">delete_inline</button>
+                                                    </a>
                                             </td>
                                         </tr>
                                         <tr className="bg-gray-800">
@@ -55,9 +58,12 @@ const TableHotels = () => {
                                                 {"-"}
                                             </td>
                                             <td className="p-3">
-                                                <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                    <button className="material-icons-round text-base">delete_inline</button>
-                                                </a>
+                                                    <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base">delete_inline</button>
+                                                    </a>
                                             </td>
                                         </tr>
                                         <tr className="bg-gray-800">
@@ -74,9 +80,12 @@ const TableHotels = () => {
                                                 {"Ginásio, Spa"}
                                             </td>
                                             <td className="p-3">
-                                                <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                    <button className="material-icons-round text-base">delete_inline</button>
-                                                </a>
+                                                    <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base">delete_inline</button>
+                                                    </a>
                                             </td>
                                         </tr>
                                     </tbody>

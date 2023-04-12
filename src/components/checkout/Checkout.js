@@ -8,7 +8,6 @@ import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AddressForm from './AddressForm';
@@ -79,7 +78,7 @@ export default function Checkout() {
                 Obrigado pelo seu pedido.
               </Typography>
               <Typography variant="subtitle1">
-              O número do seu pedido é #2001539. enviámos um email de confirmação e vamos atualizando o estado da entrega através deste.
+              O número da sua reserva é #2001539. Enviámos um email de confirmação e vamos atualizando o estado da sua reserva através deste.
 
               </Typography>
               <Button onClick={() => navigate("/")} sx={{ mt: 3, ml: 1 }}>

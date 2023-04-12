@@ -14,69 +14,49 @@ const Tableservice = () => {
                         <table className="table text-gray-400 border-separate space-y-6 text-sm">
                             <thead className="bg-gray-800 text-gray-500">
                                 <tr>
-						            <th className="p-3 text-left">Nº Serviço</th>
 						            <th className="p-3 text-left">Nome do Serviço</th>
-                                    <th className="p-3 text-left">Nº de Pessoas</th>
+                                    <th className="p-3 text-left">Nº de Pessoas Registadas</th>
                                     <th className="p-3 text-left">Preço do Serviço ao Dia</th>
-                                    <th className="p-3 text-left">Apagar</th>
+                                    <th className="p-3 text-left">Ações</th>
 					            </tr>
                             </thead>
                                     <tbody>
                                         <tr className="bg-gray-800">
                                             <td className="p-3">
-                                                {"47234"}
-                                            </td>
-                                            <td className="p-3">
                                                 {"Ginásio"}
                                             </td>
                                             <td className="p-3">
-                                                {"17"}
+                                                {"7"}
                                             </td>
                                             <td className="p-3">
                                                 {"5.99"}
                                             </td>
                                             <td className="p-3">
-                                                <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                    <button className="material-icons-round text-base">delete_inline</button>
-                                                </a>
+                                            <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base">delete_inline</button>
+                                                    </a>
                                             </td>
                                         </tr>
                                         <tr className="bg-gray-800">
-                                            <td className="p-3">
-                                                {"47983"}
-                                            </td>
                                             <td className="p-3">
                                                 {"Spa"}
                                             </td>
                                             <td className="p-3">
-                                                {"37"}
+                                                {"11"}
                                             </td>
                                             <td className="p-3">
                                                 {"5.99"}
                                             </td>
                                             <td className="p-3">
-                                                <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                    <button className="material-icons-round text-base">delete_inline</button>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr className="bg-gray-800">
-                                            <td className="p-3">
-                                                {"47098"}
-                                            </td>
-                                            <td className="p-3">
-                                                {"Golf"}
-                                            </td>
-                                            <td className="p-3">
-                                                {"42"}
-                                            </td>
-                                            <td className="p-3">
-                                                {"5.99"}
-                                            </td>
-                                            <td className="p-3">
-                                                <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                    <button className="material-icons-round text-base">delete_inline</button>
-                                                </a>
+                                            <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <button className="material-icons-outlined text-base">edit</button>
+                                                    </a>
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base">delete_inline</button>
+                                                    </a>
                                             </td>
                                         </tr>
                                     </tbody>

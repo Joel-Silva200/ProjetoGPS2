@@ -11,7 +11,7 @@ const SideLeftbar = () => {
             <ul>
                 <li className="has-subnav">
                     <Link to={"/dashboard/users"}>
-                        <i className="fa fa-globe fa-2x"></i>
+                        <i className="fa fa-user fa-2x"></i>
                         <span className="nav-text">
                             Users
                         </span>
@@ -19,7 +19,7 @@ const SideLeftbar = () => {
                 </li>
                 <li className="has-subnav">
                     <Link to={"/dashboard/Reservas"}>
-                       <i className="fa fa-comments fa-2x"></i>
+                       <i className="fa fa-file fa-2x"></i>
                         <span className="nav-text">
                             Reservas
                         </span>
@@ -28,7 +28,7 @@ const SideLeftbar = () => {
                 </li>
                 <li className="has-subnav">
                     <Link to={"/dashboard/quartos"}>
-                       <i className="fa fa-camera-retro fa-2x"></i>
+                       <i className="fa fa-bed fa-2x"></i>
                         <span className="nav-text">
                             Quartos
                         </span>
@@ -36,7 +36,7 @@ const SideLeftbar = () => {
                 </li>
                 <li className="has-subnav">
                     <Link to={"/dashboard/servicos"}>
-                       <i className="fa fa-camera-retro fa-2x"></i>
+                       <i className="fa fa-bell fa-2x"></i>
                         <span className="nav-text">
                             Servicos
                         </span>
