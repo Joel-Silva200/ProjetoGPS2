@@ -11,7 +11,7 @@ function Hero() {
                 <section className="relative">
                     {/* <div className="overlay w-full h-screen bg-gray-900 absolute z-10 opacity-75"></div> */}
                     <div>
-                        <h1 className="mt-16 hidden sm:block text-xl md:text-4xl xl:text-6xl text-center font-serif">
+                        <h1 className="mt-16 hidden sm:block text-xl md:text-4xl xl:text-5xl text-center font-serif">
                             Os melhores quartos, aos melhores preços
                         </h1>
 
