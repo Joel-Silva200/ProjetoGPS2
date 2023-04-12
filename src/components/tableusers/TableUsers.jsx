@@ -27,38 +27,16 @@ const TableUsers = (props) => {
                                     <tbody>
                                             <tr className="bg-gray-800" key={1}>
                                                 <td className="p-3">
-                                                    {"nome"}
+                                                    {"Antnio Silva"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"email"}
+                                                    {"antsilva@gmail.com"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"morada"}
+                                                    {"Rua da Trindade Esperança n37"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"cb"}
-                                                </td>
-                                                <td className="p-3">
-                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
-                                                        <i className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/" + data._id)}>edite</i>
-                                                    </a> */}
-                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
-                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr className="bg-gray-800" key={1}>
-                                                <td className="p-3">
-                                                    {"nome"}
-                                                </td>
-                                                <td className="p-3">
-                                                    {"email"}
-                                                </td>
-                                                <td className="p-3">
-                                                    {"morada"}
-                                                </td>
-                                                <td className="p-3">
-                                                    {"cb"}
+                                                    {"279453455"}
                                                 </td>
                                                 <td className="p-3">
                                                     {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
@@ -71,16 +49,38 @@ const TableUsers = (props) => {
                                             </tr>
                                             <tr className="bg-gray-800" key={1}>
                                                 <td className="p-3">
-                                                    {"nome"}
+                                                    {"Rodrigo Almeida"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"email"}
+                                                    {"almrod@gmail.com"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"morada"}
+                                                    {"Rua do Tal Bandido Delas n52"}
                                                 </td>
                                                 <td className="p-3">
-                                                    {"cb"}
+                                                    {"279547025"}
+                                                </td>
+                                                <td className="p-3">
+                                                    {/* <a className="text-gray-400 hover:text-gray-100 mr-2">
+                                                        <i className="material-icons-outlined text-base" onClick={() => navigate("/dashboard/" + data._id)}>edite</i>
+                                                    </a> */}
+                                                    <a className="text-gray-400 hover:text-gray-100  mx-2">
+                                                        <button className="material-icons-round text-base" onClick={() => handleClick()}>delete_inline</button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr className="bg-gray-800" key={1}>
+                                                <td className="p-3">
+                                                    {"Pedro Silva"}
+                                                </td>
+                                                <td className="p-3">
+                                                    {"pesilva@gmail.com"}
+                                                </td>
+                                                <td className="p-3">
+                                                    {"Rua da Sagrada Conceição n4"}
+                                                </td>
+                                                <td className="p-3">
+                                                    {"609256345"}
                                                 </td>
                                                 <td className="p-3">
                                                     {/* <a className="text-gray-400 hover:text-gray-100 mr-2">

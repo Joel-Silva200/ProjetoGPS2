@@ -18,6 +18,7 @@ const Tableservice = () => {
 						            <th className="p-3 text-left">Nome do Serviço</th>
                                     <th className="p-3 text-left">Nº de Pessoas</th>
                                     <th className="p-3 text-left">Preço do Serviço ao Dia</th>
+                                    <th className="p-3 text-left">Apagar</th>
 					            </tr>
                             </thead>
                                     <tbody>
@@ -42,16 +43,16 @@ const Tableservice = () => {
                                         </tr>
                                         <tr className="bg-gray-800">
                                             <td className="p-3">
-                                                {"132124"}
+                                                {"47983"}
                                             </td>
                                             <td className="p-3">
-                                                {"Pedro Silva"}
+                                                {"Spa"}
                                             </td>
                                             <td className="p-3">
-                                                {"304"}
+                                                {"37"}
                                             </td>
                                             <td className="p-3">
-                                                {"-"}
+                                                {"5.99"}
                                             </td>
                                             <td className="p-3">
                                                 <a className="text-gray-400 hover:text-gray-100  mx-2">
@@ -61,16 +62,16 @@ const Tableservice = () => {
                                         </tr>
                                         <tr className="bg-gray-800">
                                             <td className="p-3">
-                                                {"132125"}
+                                                {"47098"}
                                             </td>
                                             <td className="p-3">
-                                                {"Rodrigo Almeida"}
+                                                {"Golf"}
                                             </td>
                                             <td className="p-3">
-                                                {"201"}
+                                                {"42"}
                                             </td>
                                             <td className="p-3">
-                                                {"Ginásio, Spa"}
+                                                {"5.99"}
                                             </td>
                                             <td className="p-3">
                                                 <a className="text-gray-400 hover:text-gray-100  mx-2">
