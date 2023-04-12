@@ -151,16 +151,16 @@ function App() {
                   </>
                 }
               />
-              <Route
-                path="new"
-                element={
-                  <>
-                  
-                    <FormService/>
-                  
-                  </>
-                }
-              />
+                <Route
+                  path="new"
+                  element={
+                    <>
+                    
+                      <FormService/>
+                    
+                    </>
+                  }
+                />
             </Route>
             <Route path="reservas">
               <Route
