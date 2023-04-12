@@ -15,6 +15,7 @@ import FormQuartos from "./components/formquarto/FormQuartos";
 import Checkout from "./components/checkout/Checkout";
 import Quarto from "./pages/quarto/Quarto";
 import Tableservice from "./components/extraservice/extraservice";
+import FormService from "./components/formservice/FormService";
 import Erro from "./pages/erro/Erro";
 import { useState } from "react";
 
@@ -146,6 +147,16 @@ function App() {
                   
                   <SideLeftbar/>
                     <Tableservice/>
+                  
+                  </>
+                }
+              />
+              <Route
+                path="new"
+                element={
+                  <>
+                  
+                    <FormService/>
                   
                   </>
                 }
